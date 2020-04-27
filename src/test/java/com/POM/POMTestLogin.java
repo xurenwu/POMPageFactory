@@ -27,6 +27,7 @@ public class POMTestLogin {
 		objLogin.login("admin","admin");
 		System.out.println(objHomePages.titleText());
 		assertEquals(objHomePages.titleText(), "Congratulations!");
+		driver.close();
 	}
 
 }
